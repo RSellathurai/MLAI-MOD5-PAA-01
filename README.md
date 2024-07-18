@@ -33,6 +33,7 @@ The dataset includes attributes divided into user attributes, contextual attribu
   - Time before it expires: 2 hours, one day
 
 ## Key Findings
+See Jupyter notebook for detailed analysis: [Data Analysis Report](prompt.ipynb)
 
 ### Distribution of Coupons
 
@@ -180,3 +181,8 @@ Based on our previous visualization, high-end restaurants have an acceptance rat
 **Observation**: Drivers who are traveling with their partners tend to be more likely to accept coupons for high-end restaurants.
 
 **Summary**: Drivers who are traveling with their partners and frequently visit high-end restaurants have a high chance of accepting the coupons. The income of drivers does not have any correlation to accepting the coupons.
+
+## Next Steps
+**Conduct Comprehensive Analysis of All Coupon Types**: Examine the remaining types of coupons to understand how different attributes affect their acceptance rates.
+**Develop a Predictive Model**: Create a model using the analyzed data to predict coupon acceptance for each coupon type or based on the attributes predicts which coupon is a good fit for the driver. This way we can promote the business to the right target of customers.
+**Validate the Model**: Test the model's accuracy and reliability using a separate test dataset.
